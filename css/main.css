@@ -12,6 +12,8 @@
 
 .homepage-container {
   background: rgba(255, 255, 255, 0.51); 
+  padding-left: 25px;
+  padding-right: 25px;
   max-width: 1220px;
   width: auto;  
   height: 300px;    
@@ -52,6 +54,8 @@
     width: 300px;
     height: auto;  
     flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .homepage-container-item{    
