@@ -1,0 +1,63 @@
+.homepage{
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;  
+  background-image: url('/images/galaxy-background.jpg');  
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat
+}
+
+.homepage-container {
+  background: rgba(255, 255, 255, 0.51); 
+  max-width: 1220px;
+  width: auto;  
+  height: 300px;    
+  border: 2px solid #707070;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;  
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;  
+}
+
+.homepage-container-item {  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  position: relative;    
+  width: 130px;  
+  transition: color 0.15s ease-in-out;
+  color: #000000;
+  text-decoration: none;  
+}
+
+.homepage-container-item:hover {  
+  cursor: pointer;
+  color: #001739;  
+}
+
+
+.homepage-container-item i {  
+  font-size: 125px;
+}
+
+
+@media only screen and (max-width: 550px) {
+  .homepage-container {
+    width: 300px;
+    height: auto;  
+    flex-direction: column;
+  }
+
+  .homepage-container-item{    
+    padding-top: 25px;
+    padding-bottom: 25px;    
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
